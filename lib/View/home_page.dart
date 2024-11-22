@@ -12,13 +12,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     VideoProvider providerTrue =
-    Provider.of<VideoProvider>(context, listen: true);
+        Provider.of<VideoProvider>(context, listen: true);
     VideoProvider providerFalse =
-    Provider.of<VideoProvider>(context, listen: false);
+        Provider.of<VideoProvider>(context, listen: false);
     ThemeProvider themeProviderTrue =
-    Provider.of<ThemeProvider>(context, listen: true);
+        Provider.of<ThemeProvider>(context, listen: true);
     ThemeProvider themeProviderFalse =
-    Provider.of<ThemeProvider>(context, listen: false);
+        Provider.of<ThemeProvider>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
         scrolledUnderElevation: 0,
@@ -59,8 +59,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(width: 10),
             const CircleAvatar(
               radius: 18,
-              backgroundImage: NetworkImage(
-                  ""),
+              backgroundImage: NetworkImage(""),
             ),
           ],
         ),
@@ -79,7 +78,7 @@ class HomePage extends StatelessWidget {
             return ListView.builder(
               padding: const EdgeInsets.symmetric(vertical: 8.0),
               itemCount:
-              providerTrue.videoPlayerModal!.categories.first.videos.length,
+                  providerTrue.videoPlayerModal!.categories.first.videos.length,
               itemBuilder: (context, index) {
                 final video = providerTrue
                     .videoPlayerModal!.categories.first.videos[index];
@@ -121,11 +120,11 @@ class HomePage extends StatelessWidget {
                         // Video Details
                         ListTile(
                           contentPadding:
-                          const EdgeInsets.symmetric(horizontal: 8.0),
+                              const EdgeInsets.symmetric(horizontal: 8.0),
                           leading: const CircleAvatar(
                             backgroundColor: Colors.white,
                             backgroundImage:
-                            AssetImage('assets/images/ytlogo.png'),
+                                AssetImage('assets/images/ytlogo.png'),
                           ),
                           title: Text(
                             video.title,
@@ -173,7 +172,10 @@ class HomePage extends StatelessWidget {
             label: 'Shorts',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_circle_outline_rounded,size: 45,),
+            icon: Icon(
+              Icons.add_circle_outline_rounded,
+              size: 45,
+            ),
             label: '',
           ),
           BottomNavigationBarItem(
