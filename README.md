@@ -1,16 +1,23 @@
-# yoy_tube_clone
+<h1 align="center"> 🌟 You Tube Clone 🌟 </h1>
 
-A new Flutter project.
+- I am excited to share my latest project, a YouTube video player clone app built with Flutter. Features include online video streaming, playback controls, video duration display, shimmer loading effects, and a responsive UI. The app is powered by a Provider for state management and designed for an intuitive user experience.
 
-## Getting Started
+## 🚀 Key Features :
 
-This project is a starting point for a Flutter application.
+### Light and Dark Mode 🌗
+- Seamless theme switching for a visually appealing experience in both light and dark environments.
 
-A few resources to get you started if this is your first Flutter project:
+### Responsive UI 📱
+- Designed to adapt flawlessly across all screen sizes, ensuring an optimal user experience on any device.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Smooth Video Playback 🎥
+- Enjoy uninterrupted video playback with high-quality rendering for a great viewing experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Video Playback Controls ⏯️
+- Intuitive controls for play, pause, forward, and rewind, putting you in full command of your viewing experience.
+
+### Video Speed Controller ⚡
+- Adjust video playback speed effortlessly to suit your preferences.
+
+### Shimmer Effect ✨
+- Elegant loading placeholders create a polished and engaging experience while content is being fetched.
