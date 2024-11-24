@@ -13,7 +13,7 @@ void main() {
       ChangeNotifierProvider(
         create: (context) => ThemeProvider(),
       ),
-    ], child:  const MyApp()),
+    ], child: const MyApp()),
   );
 }
 
