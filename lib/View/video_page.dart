@@ -105,7 +105,6 @@ class _VideoPageState extends State<VideoPage> {
               ),
               const Divider(color: Colors.grey, height: 1),
 
-              // Channel Section
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Row(
@@ -113,7 +112,7 @@ class _VideoPageState extends State<VideoPage> {
                     const CircleAvatar(
                       radius: 20,
                       backgroundImage: NetworkImage(
-                          ''),
+                          'https://media.licdn.com/dms/image/v2/D4D03AQEz7WMu4isHOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722272249442?e=1738195200&v=beta&t=H5l_XEcqwBt1Ft5sXk1q_7BxUqaLegyXyye0JelMVfs'),
                     ),
                     const SizedBox(width: 12),
                     Column(

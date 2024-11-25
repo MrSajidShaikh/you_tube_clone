@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(width: 10),
             const CircleAvatar(
               radius: 18,
-              backgroundImage: NetworkImage(""),
+              backgroundImage: NetworkImage("https://media.licdn.com/dms/image/v2/D4D03AQEz7WMu4isHOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722272249442?e=1738195200&v=beta&t=H5l_XEcqwBt1Ft5sXk1q_7BxUqaLegyXyye0JelMVfs"),
             ),
           ],
         ),
